@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "pk.edu.uiit.18-Arid-2580Umer_assignment2"

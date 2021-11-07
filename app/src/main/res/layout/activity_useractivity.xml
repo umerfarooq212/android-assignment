@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".useractivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background"
+        android:layout_marginTop="115dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout6">
+    <androidx.cardview.widget.CardView
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        app:cardCornerRadius="250dp"
+        app:cardBackgroundColor="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:cardCornerRadius="250dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/profile"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/todo"
+                android:id="@+id/profile"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView> </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@+id/layout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout1"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/textview1"/>
+
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Umer farooq" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout2"
+        android:layout_below="@id/layout1">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Email "
+            android:id="@+id/textview2"/>
+
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="umer03207856282@gmail.com" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout3"
+        android:layout_below="@id/layout2">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Phone no"
+            android:id="@+id/textview3"/>
+
+        <EditText
+            android:id="@+id/edittext3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="2662064" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout4"
+        android:layout_below="@id/layout3">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Contact no "
+            android:id="@+id/textview4"/>
+
+        <EditText
+            android:id="@+id/edittext4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="03207856282" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout5"
+        android:layout_below="@id/layout4">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="CNIC "
+            android:id="@+id/textview5"/>
+
+        <EditText
+            android:id="@+id/edittext5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="35302-8453983-5" />
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
